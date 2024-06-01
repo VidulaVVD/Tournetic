@@ -251,12 +251,12 @@ body {
 .section { padding-block: var(--section-padding); }
 
 .h1 {
-  color: var(--white-1);
+  color: var(--eerie-black);
   font-family: var(--ff-league-spartan);
   line-height: 1.2;
 }
 .h2 {
-  color: var(--white-1);
+  color: var(--eerie-black);
   font-family: var(--ff-league-spartan);
   line-height: 1.2;
 }
@@ -379,7 +379,7 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--red-crayola); }
+.navbar-link:is(:hover, :focus) { color:green; }
 
 .header .btn { margin-block-start: 10px; }
 
@@ -557,7 +557,7 @@ body {
 }
 
 .about-item ion-icon {
-  color: var(--red-crayola);
+  color:green;
   flex-shrink: 0;
   margin-block-start: 2px;
 }
@@ -674,7 +674,7 @@ body {
 
 .input-field::-webkit-inner-spin-button { display: none; }
 
-.input-field:focus { outline-color: var(--red-crayola); }
+.input-field:focus { outline-color:green; }
 
 .input-field::placeholder { transition: var(--transition-1); }
 
@@ -691,12 +691,12 @@ textarea.input-field {
 .checkbox {
   width: max-content;
   margin-block-start: 5px;
-  accent-color: var(--red-crayola);
+  accent-color: green;
 }
 
 .label-link {
   display: inline-block;
-  color: var(--red-crayola);
+  color: green;
 }
 
 .label-link:is(:hover, :focus) { text-decoration: underline; }
@@ -731,7 +731,7 @@ textarea.input-field {
 
 .contact-card .card-icon {
   background-color: var(--cultured-2);
-  color: var(--red-crayola);
+  color: green;
   font-size: 25px;
   padding: 13px;
   border-radius: 50%;
@@ -739,7 +739,7 @@ textarea.input-field {
 }
 
 .contact-card:is(:hover, :focus) .card-icon {
-  background-color: var(--red-crayola);
+  background-color: green;
   color: var(--white-1);
 }
 
@@ -750,7 +750,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.contact-card .card-link:is(:hover, :focus) { color: var(--red-crayola); }
+.contact-card .card-link:is(:hover, :focus) { color: green; }
 
 
 
